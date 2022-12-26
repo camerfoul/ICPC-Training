@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends screen sudo gcc g++ gdb git gpg gpg-agent gpgconf
+    && apt-get -y install --no-install-recommends screen sudo gcc g++ gdb git gpg gpg-agent gpgconf openssh-client
 
 
 # https://code.visualstudio.com/remote/advancedcontainers/add-nonroot-user
