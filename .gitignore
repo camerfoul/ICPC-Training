@@ -1,6 +1,8 @@
 *
 !.gitignore
 !*.cpp
+!*.py
+!*.java
 !*/
 !/.devcontainer/**/*
 .vscode

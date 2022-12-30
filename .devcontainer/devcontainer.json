@@ -12,7 +12,9 @@
 			"extensions": [
 				"ms-vscode.cpptools",
 				"ms-vscode.cpptools-themes",
-				"ms-vscode.cmake-tools"
+				"ms-vscode.cmake-tools",
+				"ms-python.python",
+				"VisualStudioExptTeam.vscodeintellicode"
 			]
 		}
 	},
